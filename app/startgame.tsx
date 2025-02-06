@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, Image, StyleSheet, Pressable } from "react-native";
 import { Link } from "expo-router";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 // Import local images
 const images = {
@@ -11,6 +12,16 @@ const images = {
 };
 
 const StartGame = () => {
+  const loadMatchHistory = async () => {
+    try {
+      const matches = await AsyncStorage.getItem("matchHistory");
+      return matches ? JSON.parse(matches) : [];
+    } catch (error) {
+      console.error("Error loading match history:", error);
+      return [];
+    }
+  };
+
   return (
     <View style={styles.container}>
       {/* First Square */}

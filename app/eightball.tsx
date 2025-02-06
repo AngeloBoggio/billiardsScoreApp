@@ -5,7 +5,7 @@ import AppLoading from "expo-app-loading";
 import PlayerList from "@/components/playerList";
 import AddPlayerModal from "@/components/addplayermodal";
 import TeamSelectionScreen from "./teamSelectionScreen";
-import GameScreen from "./gameScreen";
+import GameScreen from "./singles";
 
 const EightBall = () => {
   const [fontsLoaded, setFontsLoaded] = useState(false);
@@ -55,7 +55,7 @@ const EightBall = () => {
   }
 
   if (currentScreen === "game") {
-    return <GameScreen players={players} teams={teams} />;
+    return <GameScreen players={players} />;
   }
 
   return (
