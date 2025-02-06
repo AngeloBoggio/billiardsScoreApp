@@ -1,6 +1,6 @@
 # Billiards Score App 👋
 
-This project all began because of my love for pool and technology/software development. My hopes for it is to provide straight to the point software for anyone to pick up and use while enjoy some 🎱
+This project all began because of my love for pool and technology/software development. My hopes for it is to provide straight to the point software for anyone to pick up and use while enjoying some 🎱
 
 ## Get started
 
