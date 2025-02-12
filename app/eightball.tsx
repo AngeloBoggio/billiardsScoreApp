@@ -60,9 +60,8 @@ const EightBall = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={[styles.playerCount, { fontFamily: "MyCustomFont" }]}>
-        Players: {players.length}
-      </Text>
+      <Text>Add Players Below by clicking on the +</Text>
+      <Text>Players play in the order they are added.</Text>
 
       <PlayerList
         players={players}
@@ -90,10 +89,6 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-  },
-  playerCount: {
-    fontSize: 40,
-    padding: 30,
   },
   startButton: {
     marginTop: 20,
