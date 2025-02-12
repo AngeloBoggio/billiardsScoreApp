@@ -1,6 +1,6 @@
-# Welcome to your Expo app 👋
+# Billiards Score App 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This project all began because of my love for pool and technology/software development. My hopes for it is to provide straight to the point software for anyone to pick up and use while enjoying some 🎱
 
 ## Get started
 
